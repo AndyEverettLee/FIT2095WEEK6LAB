@@ -15,5 +15,13 @@ const MongoClient = mongodb.MongoClient;
 const url = 'mongodb://localhost:27017/';
 let db; 
 
+app.get('/',function(req,res){
+res.send("lol hi");
+
+});
+
+
 
 app.listen(8080);
+
+//sudo npm -g i nodemon 
